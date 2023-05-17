@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CONTADOR DE PALABRAS</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>¿CUANTAS PALABRAS TIENE ESTE TEXTO?</h1>
+            <form class="formu">
+                <label for="texto">Ingrese su texto:</label><br>
+                <textarea id="texto" rows="4" cols="50"></textarea><br>
+                <button type="button" onclick="contarPalabras()">Validar texto</button>
+            </form>
+
+            <div id="resultado"></div>
+            <script src="./index.js"></script>
+        </div>
+
+    </main>
+</body>
+
+</html>
